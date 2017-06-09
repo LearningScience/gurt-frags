@@ -1,0 +1,41 @@
+.TH GURT-FRAGS 7
+
+.SH NAME
+
+gurt-frags - standard fragments for gurt
+
+.SH FRAGS
+
+.TP
+.BI " Linter "
+Lints all javascript (excluding libs) with ESlint, prints warnings and errors to console. An .eslintrc file is resolved relative to each linted file.
+
+.TP
+.BI " Pre-Process "
+Various pre-processors: markdown (.md) into html, sass (.scss) into css, coffee (.coffee) into js, yaml (.yml) into json. Files are replaced in stream.
+
+.TP
+.BI " Concat "
+Concatenate all javascript and stylesheets for libs, base, apps directories. Retarget any resource references relative to new concatenated file locations.
+
+.TP
+.BI " Revision "
+Revision file names with rev-tree. Uses a hash of the entire source tree through git describe and applies it to all files for reliable cache busting.
+
+.TP
+.BI " Inject "
+Inject all javascript and stylesheets for libs, base, apps into index.html. Requires that injection tags are present, see README.md for examples.
+
+.TP
+.BI " Post-Process "
+Various post-processors: minifies html, minifies / prefixes css, minifies / annotates js, minifies json. js outputs ASCII to preserve RegExp UTF8 escapes.
+
+.SH CHAIN
+
+.TP
+.BI build\ =\  Linter.Pre-Process.Concat.Revision.Inject.Post-Process
+Default build chain.
+
+.TP
+.BI serve\ =\  Linter.Pre-Process.Inject
+Default serve chain.
