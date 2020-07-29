@@ -20,7 +20,6 @@
 		"gulp-filter": "^5",
 		"gulp-dependents": "^1",
 		"gulp-load-plugins": "^1",
-		"gulp-eslint": "^4",
 		"gulp-marked": "^1",
 		"gulp-sass": "^3",
 		"gulp-coffee": "^2",
