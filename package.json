@@ -17,16 +17,16 @@
 	],
 	"repository": "github:learningscience/gurt-frags",
 	"dependencies": {
-		"gulp-filter": "^5",
+		"gulp-filter": "^6",
 		"gulp-dependents": "^1",
-		"gulp-load-plugins": "^1",
-		"gulp-sass": "^3",
-		"gulp-yaml": "^1",
-		"gulp-auto-rollup": "^1",
+		"gulp-load-plugins": "^2",
+		"gulp-sass": "^4",
+		"gulp-yaml": "^2",
+		"gulp-auto-rollup": "^2",
 		"gulp-cssretarget": "^1",
 		"gulp-concat": "^2",
-		"gulp-inject": "^4",
-		"gulp-csso": "^3",
+		"gulp-inject": "^5",
+		"gulp-csso": "^4",
 		"gulp-terser": "^1"
 	}
 }
