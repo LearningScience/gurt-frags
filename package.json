@@ -27,6 +27,6 @@
 		"gulp-concat": "^2",
 		"gulp-inject": "^4",
 		"gulp-csso": "^3",
-		"gulp-uglify": "^3"
+		"gulp-terser": "^1"
 	}
 }
