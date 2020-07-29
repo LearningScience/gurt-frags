@@ -27,7 +27,6 @@
 		"gulp-auto-rollup": "^1",
 		"gulp-cssretarget": "^1",
 		"gulp-concat": "^2",
-		"rev-tree": "^1",
 		"gulp-inject": "^4",
 		"gulp-htmlmin": "^3",
 		"gulp-autoprefixer": "^4",
