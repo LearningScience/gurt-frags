@@ -20,7 +20,7 @@
 		"gulp-filter": "^6",
 		"gulp-dependents": "^1",
 		"gulp-load-plugins": "^2",
-		"gulp-sass": "^4",
+		"gulp-dart-sass": "^1",
 		"gulp-yaml": "^2",
 		"gulp-auto-rollup": "^2",
 		"gulp-cssretarget": "^1",
